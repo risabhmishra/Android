@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SrmFoodies</string>
+    <string-array name="campus">
+        <item>Food King</item>
+        <item>Cafe Orange Blossom</item>
+        <item>SRM Chettinadu</item>
+        <item>Dinesh Foods</item>
+        <item>Juice Corner</item>
+        <item>Sugarcane Fresh</item>
+        <item>Andhra Tiffins</item>
+        <item>Taj Mahal</item>
+        <item>Village Inn</item>
+    </string-array>
+    <string-array name="potheri">
+        <item>Rumali Restaurant</item>
+        <item>Munchies</item>
+        <item>Bihari Dhaba</item>
+        <item>Kebab House</item>
+        <item>Real Food Mart</item>
+        <item>Beach House</item>
+        <item>Mom’s Dining</item>
+        <item>Nawab’s Dining</item>
+        <item>Milan Restaurant</item>
+        <item>Meeting Point</item>
+        <item>BlueBerry</item>
+    </string-array>
+    <string-array name="highway">
+        <item>Table 9</item>
+        <item>Pizza Hunt</item>
+        <item>Al-Sham</item>
+    </string-array>
+</resources>

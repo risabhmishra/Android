@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@drawable/f"></item>
+        <item
+            android:id="@+id/domains_id"
+            android:title="Domains"
+            android:icon="@drawable/f"></item>
+        <item
+            android:id="@+id/workshops_id"
+            android:title="Workshops"
+            android:icon="@drawable/f"></item>
+        <item
+            android:id="@+id/favourites_id"
+            android:title="Favourites"
+            android:icon="@drawable/f"></item>
+        <item
+            android:id="@+id/highlights_id"
+            android:title="Highlights"
+            android:icon="@drawable/f"></item>
+        <item
+            android:id="@+id/sponsors_id"
+            android:title="Sponsors"
+            android:icon="@drawable/f"></item>
+        <item
+            android:id="@+id/patrons_id"
+            android:title="Patrons"
+            android:icon="@drawable/f"></item>
+        <item
+            android:id="@+id/team_id"
+            android:title="Team"
+            android:icon="@drawable/f"></item>
+
+    </group>
+    <item android:title="Credits">
+        <menu>
+            <item
+                android:id="@+id/credits_id"
+                android:title="Creatives"
+                android:icon="@drawable/f"></item>
+        </menu>
+    </item>
+
+</menu>

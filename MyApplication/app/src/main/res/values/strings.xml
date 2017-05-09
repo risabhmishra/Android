@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="array">
+        <item>india</item>
+        <item>pak</item>
+        <item>swiss</item>
+        <item>euro</item>
+    </string-array>
+    <string name="app"></string>
+    <string name="num1"></string>
+    <string name="num2"></string>
+    <string name="title_activity_nextpage">nextpage</string>
+    <string name="name"></string>
+    <string name="v3"></string>
+</resources>

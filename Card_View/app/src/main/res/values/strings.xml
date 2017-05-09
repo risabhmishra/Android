@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Card_View</string>
+    <string-array name="person_name">
+        <item>Aseem Sharma</item>
+        <item>Nischay Tiwari</item>
+        <item>Shreya Chakrabarty</item>
+        <item>Ojaswit Sethi</item>
+    </string-array>
+    <string-array name="person_email">
+        <item>tnjshrm1997@gmail.com</item>
+        <item>nishchay.scribbler@gmail.com</item>
+        <item>shreya_k@gmail.com</item>
+        <item>witty_ojaswit@gmail.com</item>
+    </string-array>
+    <string-array name="person_mobile">
+        <item>9563478125</item>
+        <item>6845211789</item>
+        <item>9547780951</item>
+        <item>7521469832</item>
+    </string-array>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_act2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rm.dell.srmfoodies.Act2"
+    android:backgroundTint="@color/colorPrimary">
+
+    <TextView
+        android:text="Potheri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/potheri"
+        android:fontFamily="cursive"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textColor="#040404"
+        android:layout_marginTop="74dp"
+        android:layout_below="@+id/campus"
+        android:layout_alignLeft="@+id/campus"
+        android:layout_alignStart="@+id/campus" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/spin_campus"
+        android:layout_below="@+id/campus"
+        android:layout_alignLeft="@+id/potheri"
+        android:layout_alignStart="@+id/potheri"
+        android:entries="@array/campus"/>
+
+    <TextView
+        android:text="Welcome To Srm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:fontFamily="sans-serif"
+        android:typeface="normal"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#703610"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:text="Inside The Campus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/campus"
+        android:fontFamily="cursive"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textColor="#040404"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/welcome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_potheri"
+        android:layout_marginTop="29dp"
+        android:entries="@array/potheri"
+        android:layout_below="@+id/potheri"
+        android:layout_alignLeft="@+id/potheri"
+        android:layout_alignStart="@+id/potheri" />
+
+    <TextView
+        android:text="Highway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Highway"
+        android:fontFamily="cursive"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textColor="#040404"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/spin_potheri"
+        android:layout_alignLeft="@+id/spin_potheri"
+        android:layout_alignStart="@+id/spin_potheri" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_highway"
+        android:entries="@array/highway"
+        android:layout_below="@+id/Highway"
+        android:layout_alignLeft="@+id/Highway"
+        android:layout_alignStart="@+id/Highway"
+        android:layout_marginTop="22dp" />
+</RelativeLayout>
